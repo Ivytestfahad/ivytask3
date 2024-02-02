@@ -1,0 +1,63 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  
+  max-height: 300px; 
+  overflow-y: auto; 
+}
+
+.table {
+  width: 680px;
+  border-collapse: collapse;
+}
+
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: green;
+  color: white;
+}
+
+.addButton {
+  background-color: green;
+  color: white;
+  height: 25px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 650px;
+}
+
+.addButton:hover {
+  background-color: lightgreen;
+}
+
+
+.editButton {
+  display: block;
+  margin: 0 auto;
+}
+.table-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: green;
+  color: white;
+}
